@@ -1,6 +1,6 @@
 # Server
-Go製Websocketサーバーのサンプル。
-
+Go製Websocketサーバーのサンプル。  
+Clientに対して、現在日時を送る。
 
 ### 実行
 ```sh
