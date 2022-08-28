@@ -19,8 +19,8 @@ class WEBSOCK_SAMPLE_API UWebsocketSampleSubsystem : public UGameInstanceSubsyst
 {
 	GENERATED_BODY()
 public:
-	virtual void Initialize(FSubsystemCollectionBase& Collection);
-	virtual void Deinitialize();
+	virtual void Initialize(FSubsystemCollectionBase& Collection)override;
+	virtual void Deinitialize()override;
 
 	UFUNCTION(BlueprintPure)
 		FString CurrentMessage()const;
